@@ -15,9 +15,16 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import okhttp3.HttpUrl;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,14 +32,48 @@ public class MainActivity extends AppCompatActivity {
     private Uri imageUri;//图片存储的路径
     private File file;//需要存储的图片文件
 
+    private String url = "http://ma.hzyuanjian.cn/Bill/main.php";//上传图片到指定的网址
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         headPicture = (ImageView) findViewById(R.id.headPicture);
-        file = new File(Environment.getExternalStorageDirectory(), "headPicture.jpg");//新建一个文件（路径，文件名称）
         //Environment.getExternalStorageDirectory()为获取sd的根目录。
+        file = new File(Environment.getExternalStorageDirectory(), "headPicture.jpg");//新建一个文件（路径，文件名称）
+        if (file.exists())
+        {
+            file.delete();
+        }
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         imageUri = Uri.fromFile(file);
+    }
+
+    public void confirm(View view)
+    {
+        //点击以后上传用户id和用户图片到服务器
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.put("id","test");
+            jsonObject.put("phoneNum","111111");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        OkhttpUtils.doPost(url, file, jsonObject, new HttpResponseCallBack() {
+            @Override
+            public void response(String response) {
+                Log.d("111",response);
+            }
+
+            @Override
+            public void error(Exception e) {
+                Log.d("111","22");
+            }
+        });
     }
 
     public void choosePicture(View view) {
@@ -65,7 +106,9 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case 0:
                 //拍照
-                cropPicture(imageUri);
+                if (resultCode==RESULT_OK) {
+                    cropPicture(imageUri);
+                }
                 break;
             case 1:
                 //从相册获取
@@ -113,4 +156,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
         startActivityForResult(intent,2);
     }
+
+
 }
