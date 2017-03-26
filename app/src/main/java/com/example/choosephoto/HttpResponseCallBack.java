@@ -5,6 +5,8 @@ package com.example.choosephoto;
  */
 
 public interface HttpResponseCallBack {
+
     void response(String response);//处理服务器返回成功
+
     void error(Exception e);//处理异常
 }
