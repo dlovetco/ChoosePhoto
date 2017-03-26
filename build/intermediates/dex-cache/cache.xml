@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\8ec03b7146fafb0317e7bcfbfd2b943a0d10009b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_516f0ad38d303002f37daaae99f669eae4da2187.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\979c00e57832aa6e6ed541ee196bb20889666e97\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_04da009da7659b252f7e73ccfc5b746760e371ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\4b11bce108a47e86cc2a603aa541066502dc1019\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_9a78abe721389a783e90ddf1b1bab6f2ceee2c62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\fbc07dc7d036e03e29f2cd8d902da9548d9102a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_388ff7bed297f0021696a13712c7912b81601cf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\18b4ddc8097c949a5b4ccb5d81b4e4aacd7dbdf5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_eb8b18b2e85298d1f93152d4cf31b02552929c4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\d9916355b718c8c137a6ac994d210b1d83d7ed6c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_ef97b1e0e1519c0b69616adee787516917d03d63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\4a55525c37c75740121e0699054a951237c205b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_54d1b0ea2ddf5380b77cb0503d8b5b700750dedc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\37e347cac1b2f3a97d2e6709d158e93f39830476\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_2db1c3e40810bfe8a5b621a3439344a87aceb9be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\马杭辉\.android\build-cache\feb88c96187bf9c21dc0fe940500ec93627810e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="G:\android\androidStudio\projects\ChoosePhoto\app\build\intermediates\pre-dexed\debug\classes_adefd33010335040a6183284c32464061de40f75.jar" />
+    </item>
+
+</items>
